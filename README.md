@@ -16,6 +16,11 @@ This project provides a simple API for CPF (Cadastro de Pessoas Físicas) valida
 
 2. **(Optional) Create a virtual environment:**
    ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+   or
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
@@ -23,6 +28,10 @@ This project provides a simple API for CPF (Cadastro de Pessoas Físicas) valida
 3. **Install the required dependency:**
    ```bash
    pip install "fastapi[standard]"
+   ```
+   or
+   ```bash
+   pip3 install "fastapi[standard]"
    ```
 
 
